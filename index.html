@@ -37,8 +37,8 @@
 
     <div class="hero">
         <div class="content">
-            <h1>Beautifully Crafted Web Experience</h1>
-            <div class="meet">
+            <h1 class="stagger1">Beautifully Crafted Web Experience</h1>
+            <div class="meet stagger1">
                 <span>👍</span>
                 <p>Aidil Rifqii</p>
             </div>
@@ -48,7 +48,7 @@
 
     <section class="featured">
         <div class="left">
-            <div class="inner transition 2">
+            <div class="inner transition2">
                 <p class="subtitle">featured Project</p>
                 <a href="#" class="featured-title">bla bla bla</a>
 
@@ -133,7 +133,51 @@
         </div>
         
     </section>
-    
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg==" crossorigin="anonymous"></script>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        var tl = gsap.timeline();
+
+        tl.from('.content', {
+            y: '-30%',
+            opacity: 0,
+            ease: Power4.easeOut,
+            duration: .5
+        })
+
+        tl.from('.stagger1', {
+            y: '-30%',
+            opacity: 0,
+            // ease: Power4.easeOut,
+            duration: 1,
+            stagger: .3
+        },) //"-=1.5") //offset
+
+        gsap.from('.transition2', {
+            ScrollTrigger: {
+                trigger: '.transition2',
+                start: "top bottom"
+            },
+            y: 50,
+            opacity: 0,
+            duration: 1.2,
+            stagger: .3
+        })
+
+        gsap.from('.transition3', {
+            ScrollTrigger: {
+                trigger: '.transition3',
+                start: "top bottom"
+            },
+            y: 50,
+            opacity: 0,
+            duration: 1.2,
+            stagger: .3
+        })
+
+    </script>
 </body>
 </html>

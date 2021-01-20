@@ -3,6 +3,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Poppins", arial;
+  /* background: darkgray; */
 }
 
 ul {
@@ -152,9 +153,9 @@ section {
   margin-bottom: 2em;
 }
 
-.portfolio {
+/* .portfolio {
   background: #f7f7f7;
-}
+} */
 
 .portfolio-container a img {
   border-radius: 1em;
@@ -182,6 +183,8 @@ section {
   .right {
     margin-left: 2em;
     margin-top: 1em;
+    /* border-radius: 1%; */
+    /* width: ; */
   }
 
   .skills {
