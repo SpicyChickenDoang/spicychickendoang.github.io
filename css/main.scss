@@ -22,6 +22,8 @@ img{
 
 .nav-container{
     background: #6700ee;
+    // position: fixed;
+    // z-index: 2;
     a{
         color: white;
     }
@@ -53,6 +55,12 @@ header{
 
 }
 
+// .header-desc{
+//     position: fixed;
+//     z-index: 2;
+// }
+
+
 .social-header, .hero-design{
 
     display: none;
@@ -65,19 +73,6 @@ header{
     display: grid;
     text-align: center;
     padding: 4em;
-}
-
-.meet{
-    display: flex;
-    margin: 0 auto;
-    width: 200px;
-    font-weight: bold;
-    color: palevioletred;
-
-    span{
-        margin-top: 1em;
-        margin-right: .5em;
-    }
 }
 
 section{
@@ -181,6 +176,10 @@ section{
         text-align: left;
     }
 
+    .header-desc{
+        font-size: 20px;
+    }
+
     .featured, .portfolio-container{
         display: grid;
         grid-template-columns: 40% auto;
@@ -279,10 +278,6 @@ section{
         }
     }
 
-    .meet{
-        margin: unset;
-    }
-
     .hero-design{
         display: unset;
         margin-left: -50%;
@@ -297,10 +292,10 @@ section{
 
     }
 
-    #test{
-        max-width: 600px;
-        max-height: 600px;
-    }
+    // #test{
+    //     max-width: 300px;
+    //     max-height: 300px;
+    // }
 
 }
 

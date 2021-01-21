@@ -3,7 +3,6 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Poppins", arial;
-  /* background: darkgray; */
 }
 
 ul {
@@ -58,18 +57,6 @@ header nav ul a {
   display: grid;
   text-align: center;
   padding: 4em;
-}
-
-.meet {
-  display: flex;
-  margin: 0 auto;
-  width: 200px;
-  font-weight: bold;
-  color: palevioletred;
-}
-.meet span {
-  margin-top: 1em;
-  margin-right: 0.5em;
 }
 
 section {
@@ -153,9 +140,9 @@ section {
   margin-bottom: 2em;
 }
 
-/* .portfolio {
+.portfolio {
   background: #f7f7f7;
-} */
+}
 
 .portfolio-container a img {
   border-radius: 1em;
@@ -165,6 +152,10 @@ section {
 @media only screen and (min-width: 800px) {
   .featured, .portfolio {
     text-align: left;
+  }
+
+  .header-desc {
+    font-size: 20px;
   }
 
   .featured, .portfolio-container {
@@ -183,8 +174,6 @@ section {
   .right {
     margin-left: 2em;
     margin-top: 1em;
-    /* border-radius: 1%; */
-    /* width: ; */
   }
 
   .skills {
@@ -268,10 +257,6 @@ section {
     line-height: 1.2em;
   }
 
-  .meet {
-    margin: unset;
-  }
-
   .hero-design {
     display: unset;
     margin-left: -50%;
@@ -283,10 +268,5 @@ section {
     float: right;
     max-width: 600px;
     max-height: 200px;
-  }
-
-  #test {
-    max-width: 600px;
-    max-height: 600px;
   }
 }/*# sourceMappingURL=main.css.map */
