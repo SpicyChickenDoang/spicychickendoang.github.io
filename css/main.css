@@ -20,10 +20,10 @@ img {
 }
 
 .nav-container {
-  background: #6700ee;
+  background: #292e43;
 }
 .nav-container a {
-  color: white;
+  color: #ef8b20;
 }
 
 header {
@@ -32,7 +32,7 @@ header {
   padding: 2em;
 }
 header .logo {
-  color: yellow;
+  color: #ef8b20;
   font-weight: bold;
 }
 header nav {
@@ -106,7 +106,7 @@ section {
 }
 
 .skills {
-  background: #ff64cb;
+  background: #cb591b;
 }
 
 .skills-container ul li {
@@ -123,13 +123,13 @@ section {
   margin: 0 auto;
 }
 .skills-container ul li .icon-container.one {
-  width: 50px;
+  width: 80px;
 }
 .skills-container ul li .icon-container.two {
-  width: 50px;
+  width: 80px;
 }
-.skills-container ul li .icon-container.one {
-  width: 50px;
+.skills-container ul li .icon-container.three {
+  width: 80px;
 }
 
 .skill-title {
@@ -141,17 +141,22 @@ section {
 }
 
 .portfolio {
-  background: #f7f7f7;
+  background: #fff0c6;
 }
 
 .portfolio-container a img {
   border-radius: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
+}
+
+#test {
+  max-width: 300px;
+  max-height: 400px;
 }
 
 @media only screen and (min-width: 800px) {
   .featured, .portfolio {
-    text-align: left;
+    text-align: justify;
   }
 
   .header-desc {
@@ -165,10 +170,24 @@ section {
     grid-template-columns: 40% auto;
   }
 
-  .left, .portfolio-left {
+  .left {
     display: -ms-grid;
     display: grid;
     place-content: center;
+  }
+
+  .portfolio-left {
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    margin-left: 100px;
+  }
+
+  .portfolio-right {
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    margin-left: 100px;
   }
 
   .right {

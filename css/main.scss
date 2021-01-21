@@ -21,11 +21,11 @@ img{
 }
 
 .nav-container{
-    background: #6700ee;
+    background: #292e43;
     // position: fixed;
     // z-index: 2;
     a{
-        color: white;
+        color: #ef8b20;
     }
 }
 
@@ -36,7 +36,7 @@ header{
     padding: 2em;
 
     .logo{
-        color: yellow;
+        color: #ef8b20;
         font-weight: bold;
     }
 
@@ -69,6 +69,7 @@ header{
 
 .hero{
     background: #6E00FF;
+    // background: #292e43;
     color: white;
     display: grid;
     text-align: center;
@@ -122,7 +123,7 @@ section{
 }
 
 .skills{
-    background: #ff64cb;
+    background: #cb591b;
 }
 
 .skills-container ul li{
@@ -138,15 +139,15 @@ section{
         margin: 0 auto;
 
         &.one{
-            width: 50px;
+            width: 80px;
         }
 
         &.two{
-            width: 50px;
+            width: 80px;
         }
 
-        &.one{
-            width: 50px;
+        &.three{
+            width: 80px;
         }
     }
 
@@ -161,19 +162,24 @@ section{
 }
 
 .portfolio{
-    background: #f7f7f7;
+    background: #fff0c6;
 }
 
 .portfolio-container a img{
     border-radius: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
+
+#test{
+        max-width: 300px;
+        max-height: 400px;
+    }
 
 
 @media only screen and (min-width: 800px){
 
     .featured, .portfolio{
-        text-align: left;
+        text-align: justify;
     }
 
     .header-desc{
@@ -185,9 +191,21 @@ section{
         grid-template-columns: 40% auto;
     }
 
-    .left, .portfolio-left{
+    .left{
         display: grid;
         place-content: center;
+    }
+
+    .portfolio-left{
+        display: grid;
+        place-content: center;
+        margin-left: 100px;
+    }
+
+    .portfolio-right{
+        display: grid;
+        place-content: center;
+        margin-left: 100px;
     }
 
     .right{
@@ -204,6 +222,7 @@ section{
     .skills-container ul{
         display: grid;
         grid-template-columns: repeat(3, auto);
+        // bagus nih buat di catet
         grid-gap: 1em;
     }
 
@@ -291,11 +310,6 @@ section{
         max-height: 200px;
 
     }
-
-    // #test{
-    //     max-width: 300px;
-    //     max-height: 300px;
-    // }
 
 }
 
