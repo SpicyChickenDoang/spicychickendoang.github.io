@@ -3,6 +3,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Poppins", arial;
+  background-color: #fff0c6;
 }
 
 ul {
@@ -51,9 +52,8 @@ header nav ul a {
 }
 
 .hero {
-  background: #6E00FF;
-  color: white;
-  display: -ms-grid;
+  background: #292e43;
+  color: #ef8b20;
   display: grid;
   text-align: center;
   padding: 4em;
@@ -66,18 +66,6 @@ section {
 
 .featured {
   position: relative;
-}
-
-.featured::before {
-  content: "";
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: lightpink;
-  top: 0;
-  left: 0;
-  z-index: -1;
 }
 
 .subtitle {
@@ -110,14 +98,13 @@ section {
 }
 
 .skills-container ul li {
-  background: white;
+  background: #fff0c6;
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
 }
 .skills-container ul li .icon-container {
   height: 100px;
-  display: -ms-grid;
   display: grid;
   place-content: center;
   margin: 0 auto;
@@ -140,10 +127,6 @@ section {
   margin-bottom: 2em;
 }
 
-.portfolio {
-  background: #fff0c6;
-}
-
 .portfolio-container a img {
   border-radius: 1em;
   margin-bottom: 4em;
@@ -164,27 +147,22 @@ section {
   }
 
   .featured, .portfolio-container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 40% auto;
     grid-template-columns: 40% auto;
   }
 
   .left {
-    display: -ms-grid;
     display: grid;
     place-content: center;
   }
 
   .portfolio-left {
-    display: -ms-grid;
     display: grid;
     place-content: center;
     margin-left: 100px;
   }
 
   .portfolio-right {
-    display: -ms-grid;
     display: grid;
     place-content: center;
     margin-left: 100px;
@@ -202,9 +180,7 @@ section {
   }
 
   .skills-container ul {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto 1em auto 1em auto;
     grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
   }
@@ -223,14 +199,12 @@ section {
   }
 
   .nav-container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 66% auto;
     grid-template-columns: 66% auto;
     background: unset;
   }
   .nav-container header {
-    background: #6700ee;
+    background: #292e43;
   }
 
   header {
@@ -259,15 +233,13 @@ section {
   }
 
   .hero {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 66% auto;
     grid-template-columns: 66% auto;
     background: unset;
     padding: 0;
   }
   .hero .content {
-    background: #6e00ff;
+    background: #292e43;
     padding: 6em 8em 6em 4em;
     text-align: left;
   }
