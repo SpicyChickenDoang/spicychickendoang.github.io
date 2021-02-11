@@ -104,10 +104,10 @@ section {
   margin-bottom: 1em;
 }
 .skills-container ul li .icon-container {
-  height: 100px;
+  height: 60px;
   display: grid;
   place-content: center;
-  margin: 0 auto;
+  margin: auto auto;
 }
 .skills-container ul li .icon-container.one {
   width: 80px;

@@ -135,10 +135,10 @@ section{
     margin-bottom: 1em;
 
     .icon-container{
-        height: 100px;
+        height: 60px;
         display: grid;
         place-content: center;
-        margin: 0 auto;
+        margin: auto auto;
 
         &.one{
             width: 80px;
@@ -162,6 +162,10 @@ section{
 .featured-desc{
     margin-bottom: 2em;
 }
+
+// .featured-desc1{
+//     display: none;
+// }
 
 // .portfolio{
 //     // background: #fff0c6;
