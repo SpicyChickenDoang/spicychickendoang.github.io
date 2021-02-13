@@ -2,7 +2,7 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: "Poppins", arial;
+  font-family: 'Poppins', arial;
   background-color: #fff0c6;
 }
 
@@ -23,25 +23,36 @@ img {
 .nav-container {
   background: #292e43;
 }
+
 .nav-container a {
   color: #ef8b20;
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 2em;
 }
+
 header .logo {
   color: #ef8b20;
   font-weight: bold;
 }
+
 header nav {
   float: right;
 }
+
 header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 header nav ul a {
   display: block;
   padding: 0 1em;
@@ -54,6 +65,7 @@ header nav ul a {
 .hero {
   background: #292e43;
   color: #ef8b20;
+  display: -ms-grid;
   display: grid;
   text-align: center;
   padding: 4em;
@@ -72,15 +84,15 @@ section {
   text-transform: uppercase;
   font-weight: bold;
   color: purple;
-  letter-spacing: 0.2em;
-  font-size: 0.85em;
+  letter-spacing: .2em;
+  font-size: .85em;
 }
 
 .featured-title {
   color: black;
   font-weight: bold;
   font-size: 1.3em;
-  margin-top: -0.4em;
+  margin-top: -.4em;
   display: block;
 }
 
@@ -88,7 +100,7 @@ section {
   color: 3b3b3b;
   margin-bottom: 3em;
   font-size: 85em;
-  font-size: 0.9em;
+  font-size: .9em;
   line-height: 1.8em;
   font-weight: 500;
 }
@@ -103,18 +115,23 @@ section {
   border-radius: 1em;
   margin-bottom: 1em;
 }
+
 .skills-container ul li .icon-container {
   height: 60px;
+  display: -ms-grid;
   display: grid;
   place-content: center;
   margin: auto auto;
 }
+
 .skills-container ul li .icon-container.one {
   width: 80px;
 }
+
 .skills-container ul li .icon-container.two {
   width: 80px;
 }
+
 .skills-container ul li .icon-container.three {
   width: 80px;
 }
@@ -141,100 +158,100 @@ section {
   .featured, .portfolio {
     text-align: justify;
   }
-
   .header-desc {
     font-size: 20px;
   }
-
   .featured, .portfolio-container {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 40% auto;
+    -ms-grid-columns: 40% auto;
+        grid-template-columns: 40% auto;
   }
-
   .left {
+    display: -ms-grid;
     display: grid;
     place-content: center;
   }
-
   .portfolio-left {
+    display: -ms-grid;
     display: grid;
     place-content: center;
     margin-left: 100px;
   }
-
   .portfolio-right {
+    display: -ms-grid;
     display: grid;
     place-content: center;
     margin-left: 100px;
   }
-
   .right {
     margin-left: 2em;
     margin-top: 1em;
   }
-
   .skills {
     margin-top: -5em;
     margin-bottom: -7em;
     padding-top: 7em;
   }
-
   .skills-container ul {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
   }
-
   .portfolio {
     padding-top: 7em;
   }
-
   .portfolio-container img {
     margin-left: 2em;
   }
 }
+
 @media only screen and (min-width: 1050px) {
   .hero {
     height: 50vh;
   }
-
   .nav-container {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 66% auto;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
     background: unset;
   }
   .nav-container header {
     background: #292e43;
   }
-
   header {
     padding: 2em 2em 2em 4em;
   }
-
   .social-header {
     padding: 2em 4em 2em 0;
   }
-
   section {
     padding: 4em;
   }
-
   .social-header {
     display: block;
   }
   .social-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 15em;
     float: right;
   }
   .social-header ul img {
     width: 50px;
   }
-
   .hero {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 66% auto;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
     background: unset;
     padding: 0;
   }
@@ -247,17 +264,16 @@ section {
     font-size: 3em;
     line-height: 1.2em;
   }
-
   .hero-design {
     display: unset;
     margin-left: -50%;
     margin-top: 15%;
     width: 100%;
   }
-
   .portfolio img {
     float: right;
     max-width: 600px;
     max-height: 200px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
