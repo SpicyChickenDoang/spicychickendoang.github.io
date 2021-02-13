@@ -36,7 +36,7 @@
         <div class="social-header">
             <ul>
                 <li><a href="https://www.instagram.com/aidildoang/" target="_blank"><img src="images/instagram.png" alt="instagram"></a></li>
-                <li><a href="#"><img src="images/github.png" alt="twitter"></a></li>
+                <li><a href="#" onclick="warning()"><img src="images/github.png" alt="twitter"></a></li>
                 <li><a href="https://www.linkedin.com/in/aidil-rifqi-063996196/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a></li>
             </ul>
         </div>
@@ -162,6 +162,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" integrity="sha512-QcYm1q7RbnXmwY7HJ0H7938IS0MalTPYqGUF0fIwQgEjMBt2tqjDBt+R5I+ppdwEohjMdHnFU0H+RxmrGQ8qcg==" crossorigin="anonymous"></script>
 
     <script>
+
         gsap.registerPlugin(ScrollTrigger);
         var tl = gsap.timeline();
 
@@ -201,6 +202,13 @@
             duration: 1.2,
             stagger: .3
         })
+
+
+        function warning(){
+            window.alert("It's still a work in progress");
+        }
+        
+        
 
     </script>
 </body>
