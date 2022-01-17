@@ -8,7 +8,7 @@
 <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/itim2101" title="itim2101">itim2101</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
 <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-
+<!-- <a href="https://www.flaticon.com/free-icons/moon" title="moon icons">Moon icons created by Freepik - Flaticon</a> -->
 <!-- new changes -->
 
 <!DOCTYPE html>
@@ -37,8 +37,9 @@
         </header>
         <div class="social-header">
             <ul>
+                <li><a href="#" onclick="toEzra()"><img src="images/moon.png" alt="moon"></a></li>
                 <li><a href="https://www.instagram.com/aidildoang/" target="_blank"><img src="images/instagram.png" alt="instagram"></a></li>
-                <li><a href="#" onclick="warning()"><img src="images/github.png" alt="twitter"></a></li>
+                <li><a href="#" ><img src="images/github.png" alt="twitter"></a></li>
                 <li><a href="https://www.linkedin.com/in/aidil-rifqi-063996196/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a></li>
             </ul>
         </div>
@@ -47,8 +48,6 @@
     <div class="hero">
         <div class="content">
             <h1 class="stagger1">Love me like im your brand new iphone boba</h1>
-            
-            
         </div>
     </div>
 
@@ -165,6 +164,18 @@
 
     <script>
 
+        function toEzra(){
+
+            // if(window.prompt() == "190599"){
+            //     window.location.href = "/mymoon.html";
+            // }  else {
+            //     window.alert("Access Denied")
+            // }
+
+            window.location.href = "/mymoon.html";
+            
+        };
+
         gsap.registerPlugin(ScrollTrigger);
         var tl = gsap.timeline();
 
@@ -211,7 +222,6 @@
         }
         
         
-
     </script>
 </body>
 </html>
