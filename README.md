@@ -1,3 +1,3 @@
 # spicychickendoang.github.io
 
-It's a portfolio. It's pretty explanatory
+Personal Portfolio created using simple HTML, SCSS, Javascript and gsap
