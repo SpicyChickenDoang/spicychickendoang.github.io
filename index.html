@@ -1,20 +1,3 @@
-<!-- This will be my own portfolio. wish me luck myself -->
-<!-- Change this website to fallout 4 retro styles and colors -->
-<!-- https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F56787645281248944%2F&psig=AOvVaw1mpuvMsTVXDo_W_gYvt7bf&ust=1653387165031000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNjP76ax9fcCFQAAAAAdAAAAABAJ
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aliexpress.com%2Fw%2Fwholesale-fallout-wall-art.html&psig=AOvVaw2YPJejQJQeq7R1I4v3zPd_&ust=1653387208502000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNih4L6x9fcCFQAAAAAdAAAAABAD
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.aliexpress.com%2Fitem%2F32980992286.html&psig=AOvVaw2YPJejQJQeq7R1I4v3zPd_&ust=1653387208502000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNih4L6x9fcCFQAAAAAdAAAAABAJ -->
-
-<!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-<!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-<!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-<!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/itim2101" title="itim2101">itim2101</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-<!-- <a href="https://www.flaticon.com/free-icons/moon" title="moon icons">Moon icons created by Freepik - Flaticon</a> -->
-<!-- new changes -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,140 +5,218 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.aliexpress.com%2Fitem%2F329
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aidil Rifqi</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" type="images/x-icon" href="images/favicon1.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon1.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400&family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ink: '#0d0c0a',
+                        surface: '#161412',
+                        line: 'rgba(245,235,220,0.09)',
+                        body: '#e8e2d5',
+                        muted: '#9b958a',
+                        accent: '#ef8b20',
+                    },
+                    fontFamily: {
+                        sans: ['Geist', 'Inter', 'system-ui', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'ui-monospace', 'monospace'],
+                        hand: ['Caveat', 'cursive'],
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background: #0d0c0a; }
+        ::selection { background: #ef8b20; color: #0d0c0a; }
+        .link-underline {
+            background-image: linear-gradient(currentColor, currentColor);
+            background-size: 100% 1px;
+            background-repeat: no-repeat;
+            background-position: 0 100%;
+        }
+        .link-fade { transition: color .2s ease; }
+        .link-fade:hover { color: #ef8b20; }
+    </style>
 </head>
 
-<body>
-    <div class="nav-container">
-        <header class="header-desc">
-            <a href="https://spicychickendoang.github.io/" class="logo">Aidil Rifqi</a>
-            <nav>
-                <ul>
-                    <!-- my work will take the user to a more detailed page of the work that i have done -->
-                    <!-- my work will take the user to a more detailed page of the skills that i have -->
-                </ul>
+<body class="font-sans text-body antialiased min-h-screen">
+
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-ink/70 border-b border-line">
+        <div class="max-w-3xl mx-auto px-6 py-5 flex items-center justify-between gap-4">
+            <a href="#" class="font-medium tracking-tight">Aidil Rifqi</a>
+            <nav class="flex items-center gap-5 text-sm text-muted">
+                <a href="#work" class="link-fade">work</a>
+                <a href="#now" class="link-fade">now</a>
+                <a href="bali.html" class="link-fade">bali</a>
+                <a href="#contact" class="link-fade">contact</a>
             </nav>
-        </header>
-        <div class="social-header">
-            <ul>
-                <li><a href="https://www.instagram.com/aidildoang/" target="_blank"><img src="images/instagram.png"
-                            alt="instagram"></a></li>
-                <li><a href="https://github.com/SpicyChickenDoang" target="_blank"><img src="images/github.png"></a>
+        </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-6">
+
+        <section class="pt-20 pb-24 sm:pt-28 sm:pb-32">
+            <p class="hero-line text-muted text-sm mb-6">Hey 👋</p>
+            <h1 class="hero-line text-3xl sm:text-4xl font-semibold leading-snug tracking-tight">
+                I'm Aidil — a software engineer based in Bali, currently at
+                <a href="#" class="text-accent link-underline">LinkIT360</a>.
+            </h1>
+            <p class="hero-line mt-6 text-muted leading-relaxed">
+                Lately I've been spending most of my time with AI tools and agents, figuring out how
+                far I can push them in real day-to-day work. Most of the things you see on this page
+                were built with a lot of help from them — which, honestly, feels like a fair thing to admit upfront.
+            </p>
+            <p class="hero-line mt-4 text-muted leading-relaxed">
+                I studied Computer Science at Taylor's, graduated in 2020, and have been writing
+                code professionally ever since. Before that I gave campus tours, ran a small
+                shipping operation for stranded students, and helped count ballots during an election.
+                It's been a varied few years.
+            </p>
+            <div class="hero-line mt-8 flex items-center gap-2 text-sm text-muted">
+                <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                open to interesting projects
+            </div>
+        </section>
+
+        <hr class="border-line">
+
+        <section id="work" class="py-20 sm:py-24 reveal">
+            <h2 class="text-sm font-mono text-muted mb-10">Work</h2>
+            <ol class="space-y-10">
+
+                <li class="grid grid-cols-[40px_1fr_auto] gap-4 sm:gap-6 items-start">
+                    <div class="w-10 h-10 rounded-lg bg-surface border border-line grid place-content-center overflow-hidden">
+                        <img class="w-6 h-6 object-contain" src="images/pfp.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-medium">Role at <a href="#" class="link-fade text-body">LinkIT360</a></h3>
+                        <p class="mt-2 text-muted leading-relaxed text-[0.95rem]">
+                            Placeholder — fill in what you actually did here, what you built, what shipped.
+                        </p>
+                    </div>
+                    <span class="font-mono text-xs text-muted whitespace-nowrap pt-1">Present</span>
                 </li>
-                <li><a href="https://www.linkedin.com/in/aidil-rifqi-063996196/" target="_blank"><img
-                            src="images/linkedin.png" alt="linkedin"></a></li>
+
+                <li class="grid grid-cols-[40px_1fr_auto] gap-4 sm:gap-6 items-start">
+                    <div class="w-10 h-10 rounded-lg bg-surface border border-line grid place-content-center overflow-hidden">
+                        <img class="w-8 h-8 object-cover" src="images/beautyhaul.jpeg" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-medium">Software Engineer at <a href="https://www.beautyhaul.com/" class="link-fade text-body">Beautyhaul</a></h3>
+                        <p class="mt-2 text-muted leading-relaxed text-[0.95rem]">
+                            Indonesia's first beauty e-commerce site, going since 2014.
+                            Worked across the stack — adding features, fixing things, occasionally rewriting
+                            the older corners of the codebase.
+                        </p>
+                    </div>
+                    <span class="font-mono text-xs text-muted whitespace-nowrap pt-1">—</span>
+                </li>
+
+                <li class="grid grid-cols-[40px_1fr_auto] gap-4 sm:gap-6 items-start">
+                    <div class="w-10 h-10 rounded-lg bg-surface border border-line grid place-content-center overflow-hidden">
+                        <img class="w-7 h-7 object-contain" src="images/logo.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-medium">Software Intern at <a href="https://www.transact2.com/" class="link-fade text-body">Transact2</a></h3>
+                        <p class="mt-2 text-muted leading-relaxed text-[0.95rem]">
+                            Built front-end and back-end for a handful of pages in their tax and payroll product.
+                            Vue.js, Vuetify, lots of forms.
+                        </p>
+                    </div>
+                    <span class="font-mono text-xs text-muted whitespace-nowrap pt-1">intern</span>
+                </li>
+
+                <li class="grid grid-cols-[40px_1fr_auto] gap-4 sm:gap-6 items-start">
+                    <div class="w-10 h-10 rounded-lg bg-surface border border-line grid place-content-center overflow-hidden">
+                        <img class="w-7 h-7 object-contain" src="images/logokp.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-medium">Founder of <a href="#" class="link-fade text-body">KitaPindahin</a></h3>
+                        <p class="mt-2 text-muted leading-relaxed text-[0.95rem]">
+                            Started this with friends during the lockdown — we packed and shipped belongings
+                            for Indonesian students who couldn't return to Malaysia. Ended up helping 50+ people
+                            and raising over RM24,000.
+                        </p>
+                    </div>
+                    <span class="font-mono text-xs text-muted whitespace-nowrap pt-1">2020</span>
+                </li>
+
+                <li class="grid grid-cols-[40px_1fr_auto] gap-4 sm:gap-6 items-start">
+                    <div class="w-10 h-10 rounded-lg bg-surface border border-line grid place-content-center overflow-hidden">
+                        <img class="w-7 h-7 object-contain" src="images/taylors.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-medium">Campus Tour Guide at <a href="#" class="link-fade text-body">Taylor's University</a></h3>
+                        <p class="mt-2 text-muted leading-relaxed text-[0.95rem]">
+                            Walked families around campus and tried to answer the harder questions honestly.
+                            Surprisingly good practice for explaining things to clients later.
+                        </p>
+                    </div>
+                    <span class="font-mono text-xs text-muted whitespace-nowrap pt-1">uni</span>
+                </li>
+
+                <li class="grid grid-cols-[40px_1fr_auto] gap-4 sm:gap-6 items-start">
+                    <div class="w-10 h-10 rounded-lg bg-surface border border-line grid place-content-center overflow-hidden">
+                        <img class="w-7 h-7 object-contain" src="images/logokpu.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-medium">Ballot Collector for <a href="#" class="link-fade text-body">KPU Malaysia</a></h3>
+                        <p class="mt-2 text-muted leading-relaxed text-[0.95rem]">
+                            Helped collect ballots so Indonesians living in Malaysia could vote.
+                            Long days, but the kind you feel good about.
+                        </p>
+                    </div>
+                    <span class="font-mono text-xs text-muted whitespace-nowrap pt-1">2019</span>
+                </li>
+
+            </ol>
+        </section>
+
+        <hr class="border-line">
+
+        <section id="now" class="py-20 sm:py-24 reveal">
+            <h2 class="text-sm font-mono text-muted mb-6">Now</h2>
+            <p class="text-body leading-relaxed">
+                A few things I'm into at the moment:
+            </p>
+            <ul class="mt-6 space-y-3 text-muted leading-relaxed">
+                <li><span class="text-body">Reading:</span> <span class="italic">— fill this in —</span></li>
+                <li><span class="text-body">Building:</span> <span class="italic">— a side project, maybe —</span></li>
+                <li><span class="text-body">Listening to:</span> <span class="italic">— what's on repeat —</span></li>
+                <li><span class="text-body">Eating:</span> <span class="italic">— something local, probably —</span></li>
             </ul>
-        </div>
-    </div>
+        </section>
 
-    <div class="hero">
-        <div class="content">
-            <h1 class="stagger1">Fullstack Developer</h1>
-        </div>
-    </div>
+        <hr class="border-line">
 
-    <section class="featured">
-        <div class="left">
-            <div class="inner transition2">
-                <p class="subtitle">Bachelor of Computer Science(Honours)</p>
-                <a href="#" class="featured-title">Class of 2020</a>
-                <p class="featured-desc">Here is a picture of me graduating</p>
-                <!-- <p class="featured-desc1">Below is a picture of me graduating</p> -->
-            </div>
-        </div>
+        <section id="contact" class="py-20 sm:py-24 reveal">
+            <h2 class="text-sm font-mono text-muted mb-6">Contact</h2>
+            <p class="text-body leading-relaxed">
+                If any of this resonates, or you just want to say hi, the easiest way to reach me is
+                <a href="mailto:hello@aidil.dev" class="text-accent link-underline">hello@aidil.dev</a>.
+                I read everything, even if I sometimes take a while to reply.
+            </p>
+            <p class="mt-6 text-muted leading-relaxed">
+                Or find me on
+                <a href="https://github.com/SpicyChickenDoang" target="_blank" class="link-fade text-body">GitHub</a>,
+                <a href="https://www.linkedin.com/in/aidil-rifqi-063996196/" target="_blank" class="link-fade text-body">LinkedIn</a>,
+                or <a href="https://www.instagram.com/aidildoang/" target="_blank" class="link-fade text-body">Instagram</a>.
+            </p>
+            <p class="mt-12 font-hand text-3xl text-accent">— Aidil</p>
+        </section>
 
-        <img class="right transition2" src="images/pfp.png" alt="thumbnail1">
-    </section>
+        <footer class="py-10 border-t border-line text-xs text-muted">
+            <p>Made in Bali. Last updated May 2026.</p>
+        </footer>
 
-    <div style="width: 100%; height: 30px; background-color: black;"></div>
-
-    <section class="portfolio" id="portfolio-to-click">
-
-        <div class="portfolio-container transition3" style="margin-top: 5em;">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Beautyhaul</p>
-                    <p class="featured-title">Fullstack Developer @ <a href="https://www.beautyhaul.com/"style="color: purple">Beautyhaul</a></p>
-                    <p class="featured-desc">Beautyhaul began with the launch of www.Beautyhaul.com, Indonesia's first
-                        beauty e-commerce site, in 2014.
-                        In addition to selling skincare, makeup, and top-to-toe care products, the Beautyhaul website
-                        has also innovated to become a complete beauty ecosystem, offering various other beauty-related
-                        channels.
-
-                    </p>
-                </div>
-            </div>
-
-            <a href="https://www.beautyhaul.com/" class="portfolio-right"><img src="images/beautyhaul.jpeg" id="test" alt=""></a>
-
-        </div>
-
-        <div class="portfolio-container transition3" style="margin-top: 5em;">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Transact2</p>
-                    <p class="featured-title">Internship @ <a href="https://www.transact2.com/"style="color: purple">Transact2</a></p>
-                    <p class="featured-desc">An IT company who design software for companies to easily analyze
-                        their customer and employee (Calculating a company tax and payroll). My responsible in this
-                        company
-                        was creating the front-end and back-end in some of the pages using Vue.js and Vuetify</p>
-                </div>
-            </div>
-
-            <a href="https://www.transact2.com/" class="portfolio-right"><img src="images/logo.png" id="test" alt=""></a>
-
-        </div>
-
-        <div class="portfolio-container transition3">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">KitaPindahin</p>
-                    <p class="featured-title">Founder</p>
-                    <p class="featured-desc">Service-based organizations dedicated in helping Indonesian student
-                        who couldn't return to Malaysia by packing and shipping their belongings.
-                        We also Helped more than 50 students and raised more than 24,000 Malaysian Ringgit.</p>
-                </div>
-            </div>
-
-            <a href="#" class="portfolio-right"><img src="images/logokp.png" id="test" alt=""></a>
-
-        </div>
-
-        <div class="portfolio-container transition3">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Taylor's Marketing Team</p>
-                    <p class="featured-title">Campus Tour Guide</p>
-                    <p class="featured-desc">Guiding families who wishes to know
-                        more about Taylor's University before applying for the
-                        desired student intake.
-                    </p>
-                </div>
-            </div>
-
-            <a href="#" class="portfolio-right"><img src="images/taylors.png" alt="" id="test"></a>
-
-        </div>
-
-        <div class="portfolio-container transition3">
-            <div class="portfolio-left">
-                <div class="inner">
-                    <p class="subtitle">Indonesian General Election (in Malaysia)</p>
-                    <p class="featured-title">Ballot Collector</p>
-                    <p class="featured-desc">Collecting ballot for the Indonesian
-                        citizen who lives in Malaysia for their rights to vote
-                    </p>
-                </div>
-            </div>
-
-            <a href="#" class="portfolio-right"><img src="images/logokpu.png" alt="" id="test"></a>
-
-        </div>
-
-    </section>
-    
-    <div style="width: 100%; height: 30px; background-color: black;"></div>
+    </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
         integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
@@ -165,53 +226,25 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.aliexpress.com%2Fitem%2F329
         crossorigin="anonymous"></script>
 
     <script>
-
         gsap.registerPlugin(ScrollTrigger);
-        var tl = gsap.timeline();
 
-        tl.from('.content', {
-            y: '-30%',
+        gsap.from('.hero-line', {
+            y: 16,
             opacity: 0,
-            ease: Power4.easeOut,
-            duration: .5
-        })
+            duration: 0.7,
+            ease: 'power2.out',
+            stagger: 0.08,
+        });
 
-        tl.from('.stagger1', {
-            y: '-30%',
-            opacity: 0,
-            // ease: Power4.easeOut,
-            duration: 1,
-            stagger: .3
-        },) //"-=1.5") //offset
-
-        gsap.from('.transition2', {
-            ScrollTrigger: {
-                trigger: '.transition2',
-                start: "top bottom"
-            },
-            y: 50,
-            opacity: 0,
-            duration: 1.2,
-            stagger: .3
-        })
-
-        gsap.from('.transition3', {
-            ScrollTrigger: {
-                trigger: '.transition3',
-                start: "top bottom"
-            },
-            y: 50,
-            opacity: 0,
-            duration: 1.2,
-            stagger: .3
-        })
-
-
-        function warning() {
-            window.alert("My Github is still a work in progress");
-        }
-
-
+        gsap.utils.toArray('.reveal').forEach((el) => {
+            gsap.from(el, {
+                scrollTrigger: { trigger: el, start: 'top 88%' },
+                y: 20,
+                opacity: 0,
+                duration: 0.8,
+                ease: 'power2.out',
+            });
+        });
     </script>
 </body>
 
